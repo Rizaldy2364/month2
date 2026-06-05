@@ -1,0 +1,34 @@
+// const bioData = {
+//     nama : "Muhammad Rasya RIzaldi",
+//     umur : 20,
+//     statusMahasiswa : true,
+//     hobi : "olahraga",
+//     tinggiBadan : 171,
+//     beratBadan : 59,
+//     makananFavorite : "nasi goreng, bakso",
+//     kota : "ambon ",
+//     provinsi : "maluku",
+//     tahunLahir : 2006,
+// };
+// console.log (bioData);
+
+const nama = "Muhammad Rasya Rizaldi";
+const umur = 20;
+const statustMahasiswa = true;
+const hobi = ["Joging", "Gym", "Belajar"];
+const tinggiBadan = "171";
+const beratBadan = "59";
+const makananFavorite = ["Nasi Goreng", "Ikan Lele"];
+const kota = "Ambon";
+const provinsi = "Maluku";
+const tahunLahir = 2006;
+console.log ("Nama: " + nama);
+console.log ("Umur: " + umur);
+console.log ("Status Mahasiswa: " + statustMahasiswa);
+console.log ("Hobi: " + hobi);
+console.log ("Tinggi Badan: " + tinggiBadan);
+console.log ("Berat Badan: " + beratBadan);
+console.log ("Makanan Favorite: " + makananFavorite);
+console.log ("Kota: " + kota);
+console.log ("Provinsi: " + provinsi);
+console.log ("Tahun Lahir: " + tahunLahir);

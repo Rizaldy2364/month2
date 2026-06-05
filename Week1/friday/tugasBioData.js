@@ -1,17 +1,3 @@
-// const bioData = {
-//     nama : "Muhammad Rasya RIzaldi",
-//     umur : 20,
-//     statusMahasiswa : true,
-//     hobi : "olahraga",
-//     tinggiBadan : 171,
-//     beratBadan : 59,
-//     makananFavorite : "nasi goreng, bakso",
-//     kota : "ambon ",
-//     provinsi : "maluku",
-//     tahunLahir : 2006,
-// };
-// console.log (bioData);
-
 const nama = "Muhammad Rasya Rizaldi";
 const umur = 20;
 const statustMahasiswa = true;

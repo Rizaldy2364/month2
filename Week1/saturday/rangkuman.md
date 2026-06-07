@@ -10,11 +10,11 @@
 * **Fungsi:** Menyimpan data yang nilainya dapat diubah selama program berjalan.
 * **Analogi:** Seperti kotak penyimpanan yang diberi label nama.
 * **Peraturan dalam penulisan variabel:**
--1.harus dalam bentuk satu kata.
--2.tidak boleh pake spasi.
--3.tidak bisa menggunakan simbol kecuali ( _ ) sama ( $ ).
--4.tidak boleh didahului angka kecuali angka tersebut berada di tengah kata atau akhir kata.
--dianjurkan menulis variabel dalam bentuk camelCast, dan penamaan yang masuk akal.
+* -1.harus dalam bentuk satu kata.
+* -2.tidak boleh pake spasi.
+* -3.tidak bisa menggunakan simbol kecuali ( _ ) sama ( $ ).
+* -4.tidak boleh didahului angka kecuali angka tersebut berada di tengah kata atau akhir kata.
+* -dianjurkan menulis variabel dalam bentuk camelCast, dan penamaan yang masuk akal.
 
 ## 3. Tipe Data
 **Tipe Data** adalah klasifikasi yang memberitahu komputer cara mengolah suatu nilai.

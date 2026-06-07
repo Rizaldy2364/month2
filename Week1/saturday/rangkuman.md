@@ -1,8 +1,9 @@
 # Rangkuman Pemrograman Dasar
 
 ## 1. Apa itu javascript dan sejarahnya 
-**Apa itu javasript:** javascript adalah bahasa pemrograman yang melengkapi HTML dan CSS untuk membangun pengalaman web yang interaktif dan fungsional. Dengan memahami di mana JavaScript dijalankan dan standar penulisannya, kamu memiliki fondasi yang tepat untuk memulai perjalanan belajar JavaScript secara terstruktur.
-**Sejarahnya:** Pada awalnya, JavaScript hanya dirancang untuk dijalankan di dalam browser (Chrome, Firefox, Safari). Browser memiliki mesin khusus yang disebut JavaScript Engine — misalnya V8 di Chrome — yang bertugas membaca dan mengeksekusi kode JavaScript menjadi tindakan nyata di layar pengguna, Pengembangan yang berjalan di browser ini disebut sebagai pengembangan Front-End. Namun Pada tahun 2009, teknologi bernama Node.js diciptakan. Node.js adalah lingkungan (runtime environment) yang memungkinkan JavaScript dijalankan langsung di sistem operasi komputer atau server, tanpa memerlukan browser.
+* **Apa itu javasript:** javascript adalah bahasa pemrograman yang melengkapi HTML dan CSS untuk membangun pengalaman web yang interaktif dan fungsional. Dengan memahami di mana JavaScript dijalankan dan standar penulisannya, kamu memiliki fondasi yang tepat untuk memulai perjalanan belajar JavaScript secara terstruktur.
+
+* **Sejarahnya:** Pada awalnya, JavaScript hanya dirancang untuk dijalankan di dalam browser (Chrome, Firefox, Safari). Browser memiliki mesin khusus yang disebut JavaScript Engine — misalnya V8 di Chrome — yang bertugas membaca dan mengeksekusi kode JavaScript menjadi tindakan nyata di layar pengguna, Pengembangan yang berjalan di browser ini disebut sebagai pengembangan Front-End. Namun Pada tahun 2009, teknologi bernama Node.js diciptakan. Node.js adalah lingkungan (runtime environment) yang memungkinkan JavaScript dijalankan langsung di sistem operasi komputer atau server, tanpa memerlukan browser.
 
 ## 2. Variabel
 **Variabel** adalah wadah di dalam memori komputer untuk menampung nilai atau data.

@@ -5,6 +5,7 @@ console.log ( (10 + 5) * 2 );
 console.log ( 20 / 2 + 3 );
 console.log ( 20 / (2 + 3) );
 console.log ( 10 % 3 );
+// hasil: 1.20. 2.30. 3.13. 4.4. 5.1.
 
 // Tugas soal 2-Mana yang Benar?
 let a = 15;
@@ -16,7 +17,7 @@ console.log ( a == c );
 console.log ( a != b );
 console.log ( a > b );
 console.log ( a <= c );
-// Penjelasan: 1.false, dikarenakan 15 sama 20 itu beda.     2.tru, karna 15 sama 15 itu sama.      3.tru, karna 15 sama 20 itu beda.     4.false, karna 15 itu lebih rendah dari 20.       5.true, karna 15 tidak lebih rendah dari 15 tapi sama
+// Penjelasan: 1.false, dikarenakan 15 sama 20 itu beda. 2.tru, karna 15 sama 15 itu sama. 3.tru, karna 15 sama 20 itu beda. 4.false, karna 15 itu lebih rendah dari 20. 5.true, karna 15 tidak lebih rendah dari 15 tapi sama
 
 // Tugas soal 3 - Gerbang Akses
 let umur = 18;
@@ -39,7 +40,7 @@ console.log ( listrikMati || internetPutus );
 // hasilnya true, karena internet putus bernilai true walaupun listrik mati bernilai false.
 
 // tugas soal 6-Analisis Nilai Boolean
-// prediksi hasil nilai : 1.true.    2.false     3.true.    4.false    5.false      6.true     7.true
+// prediksi hasil nilai : 1.true. 2.false 3.true. 4.false 5.false 6.true 7.true
 console.log ( true && true );
 console.log ( true && false );
 console.log ( false || true );
@@ -47,6 +48,7 @@ console.log ( false || false );
 console.log ( !true );
 console.log ( !false );
 console.log ( !(true && false) );
+// hasil: 1.true. 2.false 3.true. 4.false 5.false 6.true 7.true
 
 // Tugas soal 7-Detektif Logika
 let x = 8;
@@ -55,7 +57,7 @@ let z = 15;
 
 console.log ( x < y && y < z); 
 console.log ( !(x < y && y < z) );
-// a.true, karna 8 dibawah 12 dan 12 dibawah 15.   b.false, karna dalam kurung true lalu ada ekspresi !
+// a.true, karna 8 dibawah 12 dan 12 dibawah 15. b.false, karna dalam kurung true lalu ada ekspresi !
 
 // Tugas soal 8-Tantangan Kombinasi
 let nilai = 85;

@@ -108,4 +108,3 @@ let b = 50;
 console.log (a * 2 > 10) && (b % 2 == 0);
 // hasilnya true
 
-

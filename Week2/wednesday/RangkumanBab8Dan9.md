@@ -1,4 +1,4 @@
-# Rngkuman bab 8
+# Rangkuman bab 8 dan 9
 ## Apa itu array di JavaScipt dan penjelasan Array method
 * **Apa itu Array:** Array adalah tipe data yang digunakan untuk menyimpan banyak nilai dalam satu variabel. Tanpa array kita harus membuat variabel secara terpisah, pendekatan yang tidak praktis dan sulit dikelola.
 * **Contoh dengan Array: let siswa = ["rizaldy", "faiz", "hilmy"];**

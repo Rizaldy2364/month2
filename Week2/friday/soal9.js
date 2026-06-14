@@ -26,7 +26,7 @@ bank.tambahNasabah( 'ahmad' , 500000)
 bank.cariNasabah ( 'ahmad')
 bank.menampilkanSeluruhNasabah ()
 /* Hasil: 
-nasabah rizaldy berhasil ditambahkan. saldo: 200000
+nasabah rizaldy berhasil ditambahkan. saldo: 200000hJ
 nasabah ahmad berhasil ditambahkan. saldo: 500000
 Nasabah ditemukan: ahmad, saldo: 500000
 seluruh nasabah:  [

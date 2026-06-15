@@ -107,7 +107,7 @@ function simulasi1Hari () {
     solidaritas ()
     statusp ()
 }
-
+ 
 // soal no 2 :
 function simulasi7Hari () {
     for ( let i = 1; i <= 7; i++) {

@@ -15,7 +15,7 @@
 2. tidak boleh pake spasi. 
 3. tidak bisa menggunakan simbol kecuali ( _ ) sama ( $ ). 
 4. tidak boleh didahului angka kecuali angka tersebut berada di tengah kata atau akhir kata. 
-* *dianjurkan menulis variabel dalam bentuk camelCast, dan penamaan yang masuk akal.*
+* *dianjurkan menulis variabel dalam bentuk camelCase, dan penamaan yang masuk akal.*
 * **Cara mendeklarasikan variable adalah:** dengan menggunakan 3 kata kunci ini: 
 1. var : kata kunci ini sudah ditinggal sejak terbitnya kata kunci ( let ) dan ( const ) karna seringnya memunculkan bug. yaitu: **1.** Tidak memiliki block scope ( tanda kurung {} ) jadi dia dapat diakses meskipun diluar block scope ( tanda kurung {} ). **2.** Dapat dideklarasikan ulang tanpa peringatan error.
 2. let : Variabel yang Dapat Diubah, systax ini digunakan jika nilai variabel tersebut berpotensi berubah di kemudian hari.
@@ -37,7 +37,7 @@
 ## Rangkuman bab 5:
 * **Apa itu operator:** simbol atau tanda khusus dalam JavaScript yang digunakan untuk melakukan operasi terhadap suatu nilai (operand) sehingga menghasilkan nilai baru.
 * **Macam-macam operator:**
-1. Operator Aritmatika: digunakan untuk melakukan operasi perhitungan matematika, *simbolnya:* * , / , + , - , % , ** .
+1. Operator Aritmatika: digunakan untuk melakukan operasi perhitungan matematika, *simbolnya:* *  /  +  -  %  ** .
 2. Operator Assignment (Penugasan): Digunakan untuk memberikan atau mengubah nilai pada variabel.* simbolnya:* = , += , -= , *= , %= , /= .
 3. Operator Perbandingan (Comparison): Digunakan untuk membandingkan dua nilai dan menghasilkan Boolean (true atau false). *simbolnya:* === , == , < , > , <= , >= , != , !== .
 4. Operator Logika (Logical): Digunakan untuk menggabungkan atau membalikkan nilai Boolean. *simbolnya:* && , || , ! .
@@ -45,7 +45,7 @@
 6. Operator String (Concatenation): digunakan untuk menggabungkan dua atau lebih string menjadi satu string baru. *simbolnya:* + .
 
 ## Rangkuman bab 6:
-* **Apa itu percabangan ( control flow ):** struktur dalam JavaScript yang digunakan untuk mengatur alur jalannya program berdasarkan suatu kondisi tertentu. Dengan percabangan, program dapat memilih tindakan yang berbeda tergantung apakah kondisi tersebut bernilai true (benar) atau false (salah).\
+* **Apa itu percabangan ( control flow ):** struktur dalam JavaScript yang digunakan untuk mengatur alur jalannya program berdasarkan suatu kondisi tertentu. Dengan percabangan, program dapat memilih tindakan yang berbeda tergantung apakah kondisi tersebut bernilai true (benar) atau false (salah).
 * **Percabangan ( control flow ) ada 4 jenis:**
 1. if: Digunakan untuk menjalankan kode jika suatu kondisi bernilai true.
 2. if...else: Digunakan untuk memilih antara dua kondisi.
@@ -74,3 +74,31 @@
 9. slice(i, j): Mengembalikan salinan sebagian array.
 
 ## Rangkuman bab 9:
+* **Apa itu function:** sebuah mesin yang menyimpan beberapa perintah. Saat mesin tersebut dipanggil, semua perintah di dalamnya akan dijalankan.*contoh:* function blender ( buah, sayur) {} . ( function adalah mesin dan blender adalah nama mesinnya dan dalam tanda kurung () namanya parameter dan dalam tanda {} berisi kode yg akan dijalankan seperti isi dalam mesin yg terdapat gir,kabel dan lain-lain).
+* **deklarasi dan cara memanggilan Fungsi:** Untuk membuat fungsi, gunakan kata kunci function, diikuti nama fungsi, tanda kurung (), dan blok kode dalam kurung kurawal {}. jika sudah mendeklarasi fungsi, cara memanggilnya adalah dengan menulis nama fungsi dan tanda kurung ().
+* **Apa itu parameter dan argumen:** Parameter adalah Nama variabel yang dideklarasikan di dalam tanda kurung () yg fungsinya sebagai "pintu masuk" data. 
+sedangkan argumen adalah Nilai nyata yang diberikan dalam tanda kurung () saat fungsi dipanggil.
+* **Function Expression:** Menyimpan function ke dalam variabel. *contoh:* const hitungLuasPersegiPanjang = function (panjang, lebar) {}.
+* **Arrow Function:** cara penulisan funaction yang lebih ringkas menggunakan simbol panah =>. *contoh:* const kali = (x, y) => {} .
+* **return:** kata kunci dalam JavaScript yang digunakan untuk mengembalikan hasil dari sebuah function agar nilai tersebut dapat digunakan di bagian lain dari program. Begitu return dieksekusi, fungsi langsung berhenti. Kode setelah return tidak akan pernah dijalankan. *contoh:* ( cek google ).
+* **Nilai default:** Nilai parameter yang digunakan jika argumen tidak diberikan dengan menggunakan tanda ( = ) setelah value dalam parameter. *contoh:* function hitungDiskon(harga, persentase = 10) {} . ( persentase disini kalau tidak diisi di argumen maka otomatis akan menghasilkan nilai 10).
+
+## Rangkuman bab 10:
+* **Apa itu object:** tipe data yang digunakan untuk menyimpan kumpulan data yang saling berhubungan dalam satu wadah, dalam bentuk pasangan key dan value. analoginya seperti sebuah kartu identitas (KTP) yang menyimpan beberapa informasi tentang satu hal atau satu benda.
+* **Apa itu properti:** pasangan key dan value yang tersimpan di dalam object.
+* **Dot Notation:** cara mengambil data dari object dengan menuliskan variable kemudian tanda ( . ) lalu key. *contoh:* object.properti.
+* **Bracket Notation:** cara mengambil data dari object dengan menuliskan nama key di dalam tanda kurung siku sebagai sebuah string. *contoh:* object["properti"].
+* **Method:** Function yang ditulis di dalam Object.
+* **this:** Kata kunci yang merujuk pada Object pemilik method. *contoh penulisan dalam method:* this.properti.
+* **delete:** kata kunci yg digunakan untuk menghapus properti. *contoh penulisan:* delete santri.umur . ( delete disini kata kunci untuk menghapus properti, santri disini variablenya object dan umur adalah disini adalah properti dalam variable santri, saat dijalankan maka umur akan terhapus dari object.).
+* **in:** kata kunci yg digunakan untuk memeriksa keberadaan properti, jika hasilnya true maka ada jika false maka tidak ada. *contoh penulisan:* "key" in namaObject.
+
+## Rangkuman bab 11:
+* **Apa itu Iterable** Iterable adalah tipe Data yang Dapat Disisir Berurutan dengan menggunakan perulangan for ... of. *Tipe data Iterable yang paling umum digunakan:* 
+1. string: contoh: "apel" maka apel ini akan ditulis huruf perhuruf seperti a-p-e-l.
+2. array: contoh [ "emas", "perak"] maka yg dalam array ini akan ditulis element per element seperti 'emas', 'perak'.
+* **Apa itu Non-Iterable:**  tipe data yang tidak memiliki konsep urutan, sehingga tidak dapat diproses menggunakan for...of. tipe datanya:
+1. Number: Angka seperti 4500 adalah satu nilai tunggal, bukan kumpulan.
+2. Boolean: true atau false adalah status, bukan kumpulan elemen.
+3. Object {}: adalah tempat untuk menyimpan beberapa data menggunakan pasangan key dan value. Berbeda dengan array, data di dalam object tidak memiliki urutan nomor (indeks) seperti [0], [1], [2], dan seterusnya. Data harus diakses menggunakan nama key-nya.
+* **Cara Mengiterasi (melooping) Object dengan for...in:** Karena Object bukan Iterable, for...of tidak dapat digunakan. JavaScript menyediakan for...in khusus untuk mengiterasi kunci (key) dari sebuah Object. *prosesnya:* for...in akan mengambil setiap nama key dari sebuah object satu per satu. Key tersebut kemudian bisa digunakan dengan Bracket Notation (object[key]) untuk mengambil nilai (value) yang ada di dalam object.

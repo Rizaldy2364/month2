@@ -26,3 +26,11 @@ console.log(parseInt("25.9"));
 // e
 
 console.log((10.456).toFixed(1));
+
+/* hasil: 
+Script
+BelajarBelajar
+30
+25
+10.5
+*/

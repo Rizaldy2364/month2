@@ -60,3 +60,5 @@ apakah ada lambang di teks: false.
 kata terpanjang: lokasi.
 ---------------------------------------
 */
+    
+    

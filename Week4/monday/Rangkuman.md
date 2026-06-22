@@ -30,22 +30,22 @@
 2. Callback function — fungsi yang akan dijalankan saat event tersebut terjadi.
 
 * **Jenis-Jenis Event yang Umum Digunakan:**
-**A. Event Mouse:**
+* **A. Event Mouse:**
 1. click: Saat elemen diklik (tekan dan lepas).
 2. dblclick: Saat elemen diklik dua kali berturut-turut.
 3. mouseenter: Saat kursor memasuki area elemen.
 4. mouseleave: Saat kursor meninggalkan area elemen.
 5. mousemove: Setiap kali kursor bergerak di atas elemen.
-**B. Event Keyboard:**
+* **B. Event Keyboard:**
 6. keydown: Saat tombol keyboard ditekan.
 7. keyup: Saat tombol keyboard dilepas.
-**C. Event Form:**
+* **C. Event Form:**
 8. input: Setiap kali nilai input berubah (real-time).
 9. change: Saat nilai input berubah dan elemen kehilangan fokus.
 10. submit: Saat formulir dikirimkan.
 11. focus: Saat elemen mendapat fokus
 12. blur: Saat elemen kehilangan fokus
-**D. Event Halaman:**
+* **D. Event Halaman:**
 13. load: Saat seluruh halaman selesai dimuat.
 14. DOMContentLoaded: Saat struktur DOM selesai dibangun (lebih cepat dari load).
 15. scroll: Saat halaman atau elemen di-scroll.

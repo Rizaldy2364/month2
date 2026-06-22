@@ -8,7 +8,7 @@ function buatBank(namaBank) {
       console.log ( 'nama bank:', namaBank)
       
       
-    return{
+    return {
         buatRekening(saldoAwal) {
             nomorRekening++;
             saldo = saldoAwal; 
@@ -49,7 +49,7 @@ function buatBank(namaBank) {
             };
             saldo -= tarik
             let waktu = new Date();
-            transaksi.push({jenis: "tarik",jumlah: tarik,waktu: waktu});
+            transaksi.push({jenis: "tarik",jumlah: tarik, waktu: waktu});
 
             console.log ( 'anda berhasil menarik uang sebesar:', tarik + '.');
             console.log ( 'waktu tarik:',  waktu.toLocaleString())

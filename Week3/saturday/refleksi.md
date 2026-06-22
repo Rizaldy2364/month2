@@ -11,4 +11,4 @@
 **Date Object penting karena banyak aplikasi perlu bekerja dengan tanggal dan waktu. Tanpa Date Object, akan sulit menghitung, membandingkan, atau memformat tanggal secara otomatis.**
 
 ## Menurutmu materi mana yang paling sulit? Jelaskan alasannya.
-**Yg paling sulit adalah menggabungkan semua hal tersebut dalam program yg kita buat./ saya sulit dalam berlogika.
+**Yg paling sulit adalah menggabungkan semua hal tersebut dalam program yg kita buat./ saya sulit dalam berlogika.**

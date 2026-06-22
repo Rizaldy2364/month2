@@ -21,9 +21,6 @@ const peserta = [
   }
 ];
 
-let infoPeserta = [...peserta];
-let [ peserta1, peserta2, peserta3 ] = infoPeserta;
-
  function penerimaBeasiswa ( ) {
      let sekarang = new Date ();
 
@@ -40,7 +37,7 @@ let [ peserta1, peserta2, peserta3 ] = infoPeserta;
          // nilai rata2 peserta
 
          let penambahan = nilai[0] + nilai[1] + nilai[2];
-         let rataRataNilai = ((penambahan / nilai.length).toFixed(2));
+         let rataRataNilai = (penambahan / nilai.length).toFixed(2);
          console.log ( 'nilai rata-rata:', rataRataNilai)
          
          // pengkondisian antara mendapat beasiswa atau tidak
@@ -57,6 +54,7 @@ let [ peserta1, peserta2, peserta3 ] = infoPeserta;
 
 
 penerimaBeasiswa ( )
+
 
 /* hasil:
 nama peserta: Ari.

@@ -63,8 +63,8 @@
 
 * ** Apa itu preventDefault() — Mencegah Perilaku Bawaan Browser:** method pada Event Object yang digunakan untuk mencegah aksi bawaan (default) browser saat suatu event terjadi.
 * **Beberapa elemen HTML memiliki perilaku bawaan yang terjadi saat di-interaksi. seperti:**
-1. Elemen <a href="..."> akan berpindah halaman saat diklik.
-2. Elemen <form> akan memuat ulang (refresh) halaman saat formulir dikirimkan.
+1. Elemen ( a href="..." ) akan berpindah halaman saat diklik.
+2. Elemen ( form ) akan memuat ulang (refresh) halaman saat formulir dikirimkan.
 * Dalam pengembangan web modern, kita sering perlu mencegah perilaku ini agar dapat memproses data secara dinamis di JavaScript tanpa reload halaman. Gunakan e.preventDefault().
 
 * **Apa itu Event Delegation:** teknik menangani event pada elemen induk (parent) untuk mengontrol event dari elemen anak (child). **caranya adalah: Daripada memasang event listener ke setiap elemen anak, kita cukup memasangnya pada parent.**

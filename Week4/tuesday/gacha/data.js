@@ -1,0 +1,30 @@
+export let characters = [
+    { name : 'slime', rarity : 'Common'},
+    { name : 'kuda', rarity : 'Common'},
+    { name : 'Mini goblin', rarity : 'Common'},
+    { name : 'steven', rarity : 'Common'},
+    { name : 'Alex', rarity : 'Common'},
+    { name : 'penambang', rarity : 'Common'},
+    { name : 'goblin pemanah', rarity : 'Common'},
+    { name : 'koki', rarity : 'Common'},
+    { name : 'kesatria', rarity : 'Common'},
+    { name : 'pembantu', rarity : 'Common'},
+
+    { name : 'pemanah', rarity : 'Rare'},
+    { name : 'goblin', rarity : 'Rare'},
+    { name : 'tank', rarity : 'Rare'},
+    { name : 'kuda putih', rarity : 'Rare'},
+    { name : 'samurai', rarity : 'Rare'},
+    { name : 'pangeran', rarity : 'Rare'},
+    { name : 'vampire', rarity : 'Rare'},
+
+    { name : "mini dragon", rarity : "Epic"},
+    { name : "raja", rarity : "Epic"},
+    { name : "unicorn", rarity : "Epic"},
+    { name : "drawf", rarity : "Epic"},
+    { name : "assasins", rarity : "Epic"},
+
+    { name : 'black dragon', rarity : 'Legendary'},
+    { name : 'iblis', rarity : 'Legendary'},
+    { name : 'elf', rarity : 'Legendary'},
+]
